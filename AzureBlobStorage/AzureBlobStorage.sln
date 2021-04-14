@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "blobproject", "..\storagebl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "project-sas", "..\storagesas\sasproject\project-sas.csproj", "{7FA95246-E4A2-46BE-B3CE-015FA59E0725}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blobdetails Lease", "..\Blobdetails - lease\Blobdetails\Blobdetails Lease.csproj", "{7BABF21D-059A-4611-A143-6324C9642A3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7FA95246-E4A2-46BE-B3CE-015FA59E0725}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FA95246-E4A2-46BE-B3CE-015FA59E0725}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FA95246-E4A2-46BE-B3CE-015FA59E0725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BABF21D-059A-4611-A143-6324C9642A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BABF21D-059A-4611-A143-6324C9642A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BABF21D-059A-4611-A143-6324C9642A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BABF21D-059A-4611-A143-6324C9642A3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
