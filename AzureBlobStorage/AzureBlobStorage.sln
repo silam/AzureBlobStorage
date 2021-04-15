@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureBlobStorage", "AzureBlobStorage\AzureBlobStorage.csproj", "{FBABB023-8E7F-427F-BFF0-031870B425AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureBlobStorage", "AzureBlobStorage\AzureBlobStorage.csproj", "{FBABB023-8E7F-427F-BFF0-031870B425AE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blob-v11", "..\Blob-v11\Blob-v11\Blob-v11.csproj", "{6A42A7D4-D90A-404E-9B9C-9C880935F673}"
 EndProject
@@ -12,6 +12,16 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "project-sas", "..\storagesas\sasproject\project-sas.csproj", "{7FA95246-E4A2-46BE-B3CE-015FA59E0725}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blobdetails Lease", "..\Blobdetails - lease\Blobdetails\Blobdetails Lease.csproj", "{7BABF21D-059A-4611-A143-6324C9642A3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cosmos-table", "..\table\cosmos-table\cosmos-table.csproj", "{77578582-0307-4A5B-B0DE-E2C061641EC3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "queue-receive", "..\storage-queue-1\queue-receive\queue-receive.csproj", "{35B7B4F7-533F-49F0-B45B-5C5F59BF52DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "queue-send", "..\storage-queue\queue-send\queue-send.csproj", "{78AE7BFB-41D9-4820-B268-5E82E2776AC3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Function-Queue-Table", "..\Function-Queue-Table\Function-Queue-Table\Function-Queue-Table.csproj", "{6B0BDA31-784B-4D37-A7EB-983FEECB4653}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLFunction", "..\SQLFunction\FunctionApp2\SQLFunction.csproj", "{CDD5ED71-4AB5-4FA9-8D1B-F2B2B55DAE01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +49,26 @@ Global
 		{7BABF21D-059A-4611-A143-6324C9642A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BABF21D-059A-4611-A143-6324C9642A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BABF21D-059A-4611-A143-6324C9642A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77578582-0307-4A5B-B0DE-E2C061641EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77578582-0307-4A5B-B0DE-E2C061641EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77578582-0307-4A5B-B0DE-E2C061641EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77578582-0307-4A5B-B0DE-E2C061641EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35B7B4F7-533F-49F0-B45B-5C5F59BF52DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B7B4F7-533F-49F0-B45B-5C5F59BF52DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B7B4F7-533F-49F0-B45B-5C5F59BF52DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B7B4F7-533F-49F0-B45B-5C5F59BF52DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78AE7BFB-41D9-4820-B268-5E82E2776AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78AE7BFB-41D9-4820-B268-5E82E2776AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78AE7BFB-41D9-4820-B268-5E82E2776AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78AE7BFB-41D9-4820-B268-5E82E2776AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B0BDA31-784B-4D37-A7EB-983FEECB4653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0BDA31-784B-4D37-A7EB-983FEECB4653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0BDA31-784B-4D37-A7EB-983FEECB4653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0BDA31-784B-4D37-A7EB-983FEECB4653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD5ED71-4AB5-4FA9-8D1B-F2B2B55DAE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD5ED71-4AB5-4FA9-8D1B-F2B2B55DAE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD5ED71-4AB5-4FA9-8D1B-F2B2B55DAE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD5ED71-4AB5-4FA9-8D1B-F2B2B55DAE01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
