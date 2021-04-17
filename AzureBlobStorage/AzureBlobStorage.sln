@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Function-Queue-Table", "..\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLFunction", "..\SQLFunction\FunctionApp2\SQLFunction.csproj", "{CDD5ED71-4AB5-4FA9-8D1B-F2B2B55DAE01}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Containerblobproject", "..\Container instance blob\blob\Containerblobproject.csproj", "{2101A5B8-66BE-4ADB-8AD1-8400F3C4434A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cosmos-sql", "..\cosmos-sql\cosmos-sql\cosmos-sql.csproj", "{4266970A-40A0-473A-B973-379A3BF26568}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{CDD5ED71-4AB5-4FA9-8D1B-F2B2B55DAE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDD5ED71-4AB5-4FA9-8D1B-F2B2B55DAE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDD5ED71-4AB5-4FA9-8D1B-F2B2B55DAE01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2101A5B8-66BE-4ADB-8AD1-8400F3C4434A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2101A5B8-66BE-4ADB-8AD1-8400F3C4434A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2101A5B8-66BE-4ADB-8AD1-8400F3C4434A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2101A5B8-66BE-4ADB-8AD1-8400F3C4434A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4266970A-40A0-473A-B973-379A3BF26568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4266970A-40A0-473A-B973-379A3BF26568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4266970A-40A0-473A-B973-379A3BF26568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4266970A-40A0-473A-B973-379A3BF26568}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
