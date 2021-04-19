@@ -21,7 +21,7 @@ namespace SQLFunction
         {
             log.LogInformation("Connecting to SQL Database");
 
-            //string _conn_string = "Server=tcp:demoserver4000.database.windows.net,1433;Initial Catalog=demodb;Persist Security Info=False;User ID=demousr;Password=Shakinstev123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            //ring _conn_string = "Server=tcp:demoserver4000.database.windows.net,1433;Initial Catalog=demodb;Persist Security Info=False;User ID=demousr;Password=Shakinstev123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
             string _conn_string = Environment.GetEnvironmentVariable(sql_connection);
 
             List<Product> _products = new List<Product>();
